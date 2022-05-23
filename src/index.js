@@ -32,7 +32,7 @@ Button.defaultProps = {
   type: "default",
   text: "Click"
 }
-Button.prototypes = {
+Button.PropTypes = {
   type: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired
 }
