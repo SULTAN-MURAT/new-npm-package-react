@@ -13,18 +13,17 @@ npm install --save button-uix
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, from 'react'
 
-import MyComponent from 'button-uix'
+import Button from 'button-uix'
 import 'button-uix/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function App() {
+
+    return <Button type="primary" text="Click"/>
 }
 ```
 
 ## License
 
-MIT © [Murat-Han](https://github.com/Murat-Han)
+MIT 
